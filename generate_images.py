@@ -21,7 +21,6 @@ def generate_output_folder() -> None:
     if not os.path.isdir("generated"):
         os.mkdir("generated")
 
-
 ################################################################################
 # Individual Image Generation Functions
 ################################################################################
